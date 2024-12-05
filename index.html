@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        
+        <div class="topBar">
+            <div class="searchBoxContainer">
+                <input class="searchBox" type="text" placeholder="Search" onkeyup="filterFunction()">
+                <ul id="cityList" >
+                    <!-- <li>mumbai</li><li>delhi</li><li>bangalore</li><li>hyderabad</li><li>ahmedabad</li><li>chennai</li><li>kolkata</li><li>surat</li><li>pune</li><li>jaipur</li><li>lucknow</li><li>kanpur</li><li>nagpur</li><li>indore</li><li>thane</li><li>bhopal</li><li>visakhapatnam</li><li>pimpri-chinchwad</li><li>patna</li><li>vadodara</li><li>ghaziabad</li><li>ludhiana</li><li>agra</li><li>nashik</li><li>faridabad</li><li>meerut</li><li>rajkot</li><li>kalyan-dombivli</li><li>vasai-virar</li><li>varanasi</li><li>srinagar</li><li>aurangabad</li><li>dhanbad</li><li>amritsar</li><li>navi mumbai</li><li>allahabad</li><li>ranchi</li><li>howrah</li><li>coimbatore</li><li>jabalpur</li><li>gwalior</li><li>vijayawada</li><li>jodhpur</li><li>madurai</li><li>raipur</li><li>kota</li><li>guwahati</li><li>chandigarh</li><li>solapur</li><li>hubballi-dharwad</li><li>bareilly</li><li>moradabad</li><li>mysore</li><li>tiruchirappalli</li><li>tiruppur</li><li>guntur</li><li>bhubaneswar</li><li>salem</li><li>warangal</li><li>mira-bhayandar</li><li>thiruvananthapuram</li><li>bhiwandi</li><li>saharanpur</li><li>gorakhpur</li><li>bikaner</li><li>amravati</li><li>noida</li><li>jamshedpur</li><li>bhilai</li><li>cuttack</li><li>firozabad</li><li>kochi</li><li>nellore</li><li>bhavnagar</li><li>dehradun</li><li>durgapur</li><li>asansol</li><li>rourkela</li><li>nanded</li><li>kolhapur</li><li>ajmer</li><li>gulbarga</li><li>jamnagar</li><li>ujjain</li><li>loni</li><li>siliguri</li><li>jhansi</li><li>ulhasnagar</li><li>jammu</li><li>sangli-miraj-kupwad</li><li>mangalore</li><li>belgaum</li><li>ambattur</li><li>tirunelveli</li><li>malegaon</li><li>gaya</li><li>jalandhar</li><li>udaipur</li><li>maheshtala</li><li>davanagere</li><li>kozhikode</li><li>kurnool</li><li>rajpur sonarpur</li><li>rajahmundry</li><li>bokaro</li><li>south dumdum</li><li>bellary</li><li>patiala</li><li>gopalpur</li><li>agartala</li><li>bhagalpur</li><li>muzaffarpur</li><li>bhatpara</li><li>panihati</li><li>latur</li><li>dhule</li><li>rohtak</li><li>korba</li><li>bhilwara</li><li>berhampur</li><li>muzaffarnagar</li><li>allahabad</li><li>mangalore</li><li>tirupati</li><li>shimoga</li><li>tirupur</li><li>puducherry</li><li>kakinada</li><li>kavali</li><li>tiruchengode</li><li>tiruppur</li><li>vellore</li><li>eluru</li><li>anantapur</li><li>kollam</li><li>kanchipuram</li><li>dindigul</li><li>erode</li><li>hosur</li><li>karur</li><li>nagercoil</li><li>thoothukudi</li><li>pollachi</li><li>kalaburagi</li><li>davangere</li> -->
+                </ul>
+            </div>
+            
+            <button class="searchCircle">
+                <img src="search.png" alt="">    
+            </button>
+        </div>
+        <div class="imgAndCityContainer">
+            <div class="imgContainer">
+                <img class="weatherImg" src="clear.png" alt="">
+    
+            </div>
+    
+            <div class="tempAndCityContainer">
+                <div class="temp" id="temp">22°C</div>
+            
+                <div class="city">Lucknow</div>
+            </div>
+        </div>
+        
+        
+
+        <div class="bottomBar">
+
+            <div class="humidityContainer">
+                <div class="humid">
+                    <img src="humidity.png" alt="">
+                    <div class="humidityVal">53%</div>
+                </div>
+                <p>Humidity</p>
+            </div>
+
+            <div class="windContainer">
+                <div class="wind">
+                    <img src="wind.png" alt="">
+                    <div class="windVal">5 km/h</div>
+                </div>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <script  src="script.js"></script>
+</body>
+</html>
